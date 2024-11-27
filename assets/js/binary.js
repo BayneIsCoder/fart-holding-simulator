@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.57/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"3.2.0","target":"arcade","targetVersion":"1.12.57","repo":"bayneiscoder/fart-holding-simulator"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.57/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"3.2.1","target":"arcade","targetVersion":"1.12.57","repo":"bayneiscoder/fart-holding-simulator"}
 // total=1842393 new=6.13% cached=88.85% other=5.02%
 (function (ectx) {
 'use strict';
@@ -551,7 +551,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P29267(s) {
+function _main___P29444(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1016,17 +1016,17 @@ switch (step) {
     s.tmp_0 = controller_Button_onEvent__P2197_mk(s);
     s.tmp_0.arg0 = globals.B___2115;
     s.tmp_0.arg1 = 2049;
-    s.tmp_0.arg2 = inline__P29131;
+    s.tmp_0.arg2 = inline__P29325;
     s.callLocIdx = 77; s.pc = 45; return s.tmp_0;
   case 45:
     r0 = s.retval;
     s.tmp_0 = info_onCountdownEnd__P2585_mk(s);
-    s.tmp_0.arg0 = inline__P29135;
+    s.tmp_0.arg0 = inline__P29329;
     s.callLocIdx = 83; s.pc = 46; return s.tmp_0;
   case 46:
     r0 = s.retval;
     s.tmp_0 = info_onLifeZero__P2579_mk(s);
-    s.tmp_0.arg0 = inline__P29145;
+    s.tmp_0.arg0 = inline__P29339;
     s.callLocIdx = 92; s.pc = 47; return s.tmp_0;
   case 47:
     r0 = s.retval;
@@ -1066,7 +1066,7 @@ switch (step) {
   case 54:
     r0 = s.retval;
     s.tmp_0 = game_splash__P2966_mk(s);
-    s.tmp_0.arg0 = "Fart Holding Game v3.1.2";
+    s.tmp_0.arg0 = "Fart Holding Game v3.2.1";
     s.tmp_0.arg1 = undefined;
     s.callLocIdx = 100; s.pc = 55; return s.tmp_0;
   case 55:
@@ -1293,13 +1293,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P29267.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P29267.continuations = [  ]
+_main___P29444.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P29444.continuations = [  ]
 
-function _main___P29267_mk(s) {
+function _main___P29444_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P29267, depth: s.depth + 1,
+        parent: s, fn: _main___P29444, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2018,7 +2018,7 @@ function myImages_inline__P24032_mk(s) {
 
 
 
-function inline__P29131(s) {
+function inline__P29325(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2042,12 +2042,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P29131.info = {"start":52,"length":68,"line":0,"column":52,"endLine":3,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P29325.info = {"start":52,"length":68,"line":0,"column":52,"endLine":3,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P29131_mk(s) {
+function inline__P29325_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P29131, depth: s.depth + 1,
+        parent: s, fn: inline__P29325, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
 } }
@@ -2056,7 +2056,7 @@ function inline__P29131_mk(s) {
 
 
 
-function inline__P29135(s) {
+function inline__P29329(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2097,12 +2097,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P29135.info = {"start":142,"length":207,"line":4,"column":20,"endLine":9,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P29329.info = {"start":142,"length":207,"line":4,"column":20,"endLine":9,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P29135_mk(s) {
+function inline__P29329_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P29135, depth: s.depth + 1,
+        parent: s, fn: inline__P29329, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2112,7 +2112,7 @@ function inline__P29135_mk(s) {
 
 
 
-function inline__P29145(s) {
+function inline__P29339(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -2169,12 +2169,12 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-inline__P29145.info = {"start":367,"length":440,"line":10,"column":16,"endLine":18,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
+inline__P29339.info = {"start":367,"length":440,"line":10,"column":16,"endLine":18,"endColumn":1,"fileName":"main.ts","functionName":"inline","argumentNames":[]}
 
-function inline__P29145_mk(s) {
+function inline__P29339_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: inline__P29145, depth: s.depth + 1,
+        parent: s, fn: inline__P29339, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -62214,5 +62214,5 @@ const sprites_BaseSpriteSayRenderer__C2260_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___24004"])
 
-return _main___P29267
+return _main___P29444
 })
