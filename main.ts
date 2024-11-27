@@ -2,16 +2,6 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     info.changeScoreBy(1)
     info.startCountdown(1)
 })
-info.onScore(9999, function () {
-    info.stopCountdown()
-    game.showLongText("I. I did it..", DialogLayout.Bottom)
-    game.showLongText("I DID IT!", DialogLayout.Bottom)
-    game.showLongText("I ACTUALLY DID IT!!", DialogLayout.Bottom)
-    game.showLongText("I REALLY DID IT!!", DialogLayout.Bottom)
-    game.showLongText("LETS GOOOO-", DialogLayout.Bottom)
-    game.splash("*dies*")
-    game.gameOver(false)
-})
 info.onCountdownEnd(function () {
     music.stopAllSounds()
     game.setGameOverMessage(false, "Your Ass Exploded.")
