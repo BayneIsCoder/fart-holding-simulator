@@ -7,10 +7,6 @@ info.onCountdownEnd(function () {
     game.splash("AAAAAaAaAaaAaAAaAaAAaAaA AAAAAaAaAaaAaAAaAaAAaAaA AAAAAaAaAaaAaAAaAaAAaAaA AAAAAaAaAaaAaAAaAaAAaAaA AAAAAaAaAaaAaAAaAaAAaAaA")
     info.setLife(0)
 })
-info.onLifeZero(function () {
-    music.stopAllSounds()
-    music.play(music.stringPlayable("C5 B A G F C D C ", 120), music.PlaybackMode.UntilDone)
-})
 music.stopAllSounds()
 music.play(music.melodyPlayable(music.baDing), music.PlaybackMode.UntilDone)
 game.splash("SoftArcade Presents")
